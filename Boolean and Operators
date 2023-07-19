@@ -1,0 +1,250 @@
+'''
+#Notes:
+
+#format strings:
+age=13
+height=5.2
+text="Ethan is {} years old. And his friend is {} feet."
+print(text.format(age,height))
+
+#escape character:
+
+#single quotes(\')
+text="It\'s raining heavily"
+print(text)
+
+#new line(\n):
+text="Hi,\nI want a cheese burger"
+print(text)
+
+#tab(\t):
+text="Hi,\tI want a cheese burger"
+print(text)
+
+text="Hi, \bI want a cheese burger"
+print(text)
+
+#Pratice:
+
+num=12
+text="I want to eat {} slices of pizza"
+print(text.format(num))
+
+text="Today\' is pizza day"
+print(text)
+
+text="Today\n is pizza day"
+print(text)
+
+text="Today\t is pizza day"
+print(text)
+
+text="Today \b is pizza day"
+print(text)
+
+#More Notes:
+
+#Booleans:
+print(12==12)
+print(12>4)
+print(12<4)
+print(34>=34)
+print(96<=65)
+x=98
+y=78
+
+print(x<y)
+print(x==y)
+print(x>y)
+print(x>=y)
+print(x<=y)
+
+a=200
+b=44
+if b>a:
+    print("b is greater")
+else:
+    print("a is greater")
+    
+#Ways to make it print false:
+print(bool(False))
+print(bool())
+print(bool(0))
+print(bool(None))
+print(bool(""))
+
+#Ways to make it print true:
+print(bool("hello"))
+print(bool(234))
+x="hello"
+y=5678
+print(bool(x))
+print(bool(y))
+
+#More Pratice:
+print(1==1)
+print(1>0)
+print(0<1)
+print(0>=1)
+print(0<=1)
+x=100
+y=99
+
+print(x<y)
+print(x==y)
+print(x>y)
+print(x>=y)
+print(x<=y)
+
+d=12
+c=436
+if d>c:
+    print("d is greater")
+else:
+    print("c is greater")
+
+print(bool(False))
+print(bool())
+print(bool(0))
+print(bool(""))
+print(bool(None))
+
+x="cheese"
+y=12424
+print(bool(x))
+print(bool(y))
+
+#Even More Notes:
+
+#Operators:
+
+#Arithmetic(+, -, *, /, %, ** exponetiation, //floor division)
+x=234
+y=34
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%y)
+print(x**y)
+print(x//y)
+
+#Assignment Operators:(+=, -=, *=, /=, **=, //=, &=,|=, <=, >=)
+a=5
+a+=3
+print(a)
+
+a=5
+a-=3
+print(a)
+
+a=5
+a*=3
+print(a)
+
+a=5
+a/=3
+print(a)
+
+a=5
+a**=3
+print(a)
+
+a=5
+a//=3
+print(a)
+
+a=5
+a&=3
+print(a)
+
+a=5
+a&=3
+print(a)
+
+a=5
+a|=3
+print(a)
+
+a=5
+a<=3
+print(a)
+
+a=5
+a>=3
+print(a)
+
+#Comparize Operators:(==, >, <, >=, <=, !=)
+a=23
+b=32
+print(a==b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+print(a!=b
+
+#Even More Pratice:
+a=45
+b=4
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a**b)
+print(a//b)
+print(a%b)
+
+x=5
+x+=3
+print(x)
+
+x=5
+x-=3
+print(x)
+
+x=5
+x*=3
+print(x)
+
+x=5
+x/=3
+print(x)
+
+x=5
+x**=3
+print(x)
+
+x=5
+x//=3
+print(x)
+
+x=5
+x&=3
+print(x)
+
+x=5
+x&=3
+print(x)
+
+x=5
+x|=3
+print(x)
+
+x=5
+x<=3
+print(x)
+
+x=5
+x>=3
+print(x)
+
+a=23
+b=32
+print(a==b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+print(a!=b)
+'''
