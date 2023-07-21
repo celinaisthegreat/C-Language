@@ -1,0 +1,21 @@
+'''
+#Logical Operators:(and,or,not)
+x=8 
+print(x>4 and x<9)
+print(x>6 or x<4)
+print(not(x>4 or x<9))
+
+#Indentity Operators:(is,is not)
+x=["apple","kiwi","pear"]
+y=["melon","orange","apple","kiwi"]
+z=y 
+print(y is z)
+print(x is z)
+print(x is not z)
+
+#Mebership Operators:(in, not in)
+x=["a","b"]
+print("a" in x)
+print("b" not in x)
+'''
+
