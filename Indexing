@@ -1,0 +1,15 @@
+#Even More Notes
+
+#Access Iteams:
+x=["apple","kiwi","pear"]
+print(x[1])
+print(x[0])
+
+#Negative Indexing:
+x=["apple","kiwi","pear"]
+print(x[-1])
+print(x[-3])
+ 
+x=["apple","kiwi","pear","peach","orange","berry","cherry"]
+print(x[2:6])
+print(x[-5:-2])
