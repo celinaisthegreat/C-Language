@@ -1,0 +1,21 @@
+#More Notes:
+ 
+#List:
+#built-in datatypes.
+#we use to store the multiple iteams in a single variable
+#use square brackets
+#create a list:
+
+fruits=["kiwi","orange","pear"]
+print(fruits) 
+print(type(fruits))
+print(len(fruits))
+
+numbers=[1,2,3,4,5,6,7,8,9]
+print(numbers)
+print(type(numbers))
+print(len(numbers)) 
+ 
+#List()Constructor:
+mylist=list(("pear","kiwi"))
+print(mylist)
