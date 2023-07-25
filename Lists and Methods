@@ -1,0 +1,144 @@
+'''
+#Notes:
+
+#update list iteams:
+mylist=["apple","kiwi","pear"]
+mylist[1]="watermelon"
+print(mylist)
+
+mylist=["apple","kiwi","pear","cherry","orange"]
+mylist[1:4]=["watermelon","peach"]
+print(mylist)
+
+mylist=["apple","kiwi","pear","cherry","orange"]
+mylist[1:3]=["watermelon"]
+print(mylist)
+
+#add iteams:
+
+#append method:
+mylist=["apple","kiwi","pear"]
+mylist.append("orange")
+print(mylist)
+
+#extent method:
+mylist=["apple","kiwi","pear"]
+colors=["red","green","yellow"]
+mylist.extend(colors)
+print(mylist)
+
+#insert method:
+mylist=["apple","kiwi","pear"]
+mylist.insert(2,"cherry")
+print(mylist)
+
+#Pratice
+
+alist=["cheeseburger","hotdag","fries"]
+alist[2]="pizza"
+print(alist)
+
+alist=["cheeseburger","hotdag","fries"]
+alist[1:3]=["pizza"]
+print(alist)
+
+alist=["cheeseburger","hotdag","fries"]
+alist.append("pizza")
+print(alist)
+
+alist=["cheeseburger","hotdag","fries"]
+sides=["bacon","milkshake","cheese"]
+alist.extend(sides)
+print(alist)
+
+alist=["cheeseburger","hotdag","fries"]
+alist.insert(1,"pizza")
+print(alist)
+
+#More Notes:
+
+#remove items:
+
+#remove():
+mylist=["apple","kiwi","pear"]
+mylist.remove("kiwi")
+print(mylist)
+
+#pop():
+mylist=["apple","kiwi","pear"]
+mylist.pop(1)
+print(mylist)
+
+mylist=["apple","kiwi","pear"]
+mylist.pop()
+print(mylist)
+
+#clear():
+mylist=["apple","kiwi","pear"]
+mylist.clear()
+print(mylist)
+
+#delete():
+mylist=["apple","kiwi","pear"]
+del mylist
+print(mylist)
+
+#More Pratice:
+alist=["cheesburger","hotdag","fries"]
+alist.remove(fries)
+print(alist)
+
+alist=["cheesburger","hotdag","fries"]
+alist.pop(2)
+print(alist)
+
+alist=["cheesburger","hotdag","fries"]
+alist.clear()
+print(alist)
+
+alist=["cheesburger","hotdag","fries"]
+del alist
+print(alist)
+
+#Even More Notes:
+
+#loop list:
+
+#for loop:
+mylist=["apple","kiwi","pear"]
+for x in mylist:
+    print(x)
+
+mylist=["apple","kiwi","pear"]
+for i in range(len(mylist)):
+    print(mylist[i])
+
+#while loop:
+mylist=["apple","kiwi","pear"]
+i=0
+while i>len(mylist):
+    print(mylist[i])
+    i=i+1
+
+#short hand for loop:
+mylist=["apple","kiwi","pear"]
+[print(x)for x in mylist]
+
+#Even More Pratice
+alist=["cheeseburger","hotdag","fries"]
+for a in alist:
+    print(a)
+
+alist=["cheeseburger","hotdag","fries"]
+for b in range(len(alist)):
+    print(alist[b])
+
+alist=["cheeseburger","hotdag","fries"]
+c=2
+while c>len(alist):
+    print(alist[c])
+    c=c+1
+
+alist=["cheeseburger","hotdag","fries"]
+[print(d)for d in alist]
+'''
