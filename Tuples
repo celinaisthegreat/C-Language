@@ -1,0 +1,63 @@
+#Even Even More Notes
+
+#Python Tuples:
+#used to store multiple iteams in a single variable
+#ordered but unchanged
+#we use rounded brackets
+
+#create a tuple:
+mytuple=("kiwi","pear","apple")
+print(mytuple)
+
+#get the type:
+mytuple=("kiwi","pear","apple")
+print(type(mytuple))
+
+#get the lenght:
+mytuple=("kiwi","pear","apple")
+print(len(mytuple))
+
+#allows duplicate values:
+mytuple=("kiwi","pear","apple","kiwi","pear","apple")
+print(mytuple)
+
+mytuple=("kiwi","adfa",1234)
+print(mytuple)
+
+#tuple()constructor:
+mytuple=tuple(("kiwi","pear","apple"))
+print(mytuple)
+
+#Even Even More Pratice
+food=("cheeseburger","hotdag","fries")
+print(food)
+
+food=("cheeseburger","hotdag","fries")
+print(type(food))
+
+food=("cheeseburger","hotdag","fries")
+print(len(food))
+
+food=("cheeseburger","hotdag","fries","cheeseburger","hotdag","fries")
+print(food)
+
+food=tuple(("cheeseburger","hotdag","fries"))
+print(food)
+
+#Even Even Even More Notes
+
+#Access items:
+mytuple=("kiwi","pear","apple")
+print(mytuple[1])
+
+#negative indexing:
+mytuple=("kiwi","pear","apple")
+print(mytuple[-2:])
+
+#Even Even Even More Pratice
+food=("cheeseburger","hotdag","fries")
+print(food[1])
+
+food=("cheeseburger","hotdag","fries")
+print(food[-1])
+'''
