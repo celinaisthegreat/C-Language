@@ -1,0 +1,106 @@
+'''
+
+#Notes:
+
+#change tuples:
+x=("apple","kiwi","pear","orange","cherry",)
+y=list(x)
+y[2]="peach"
+x=tuple(y)
+print(x)
+
+a=(1,2,3,4,5,6,7,8,9)
+b=list(a)
+b[4]=10
+a=tuple(b)
+print(a)
+
+#Pratice:
+
+food=("cheeseburger","hotdag","fries")
+drink=list(food)
+drink[2]="coca cola"
+food=tuple(drink)
+print(food)
+
+nums=(9,8,7,6,5,4,3,2,1)
+biggernum=list(nums)
+biggernum[5]=72
+nums=tuple(biggernum)
+print(nums)
+
+#More Notes:
+
+#unpacking a collection:
+x=("apple","kiwi","pear","orange","cherry")
+(red, green, yellow, orange, darkred)=x
+print(red)
+print(green)
+print(yellow)
+print(orange)
+print(darkred)
+
+#for loop:
+a=("apple","kiwi","pear","orange","cherry")
+for x in a:
+    print(x)
+    
+x=("apple","kiwi","pear","orange","cherry")
+for i in range(len(x)):
+    print(x[i])
+
+#More Practice:
+food=("cheeseburger","hotdag","fries")
+(lemonade, sprite, milkshake)=food
+print(lemonade)
+print(sprite)
+print(milkshake)
+
+food=("cheeseburger","hotdag","fries")
+for drink in food:
+    print(food)
+
+food=("cheeseburger","hotdag","fries")
+for drink in range(len(food)):
+    print(food[drink])
+
+#Even More Notes:
+
+#while loop:
+x=("apple","kiwi","pear","orange","cherry")
+i=0
+while i < len(x):
+    print(x[i])
+    i=i+1
+
+#Even More Pratice:
+f=("cheeseburger","hotdag","fries")
+d=1
+while d < len(f):
+    print(f[d])
+    d=d+1
+
+#Even Even More Notes:
+
+#join tuples:
+a=(1,2,3)
+b=(4,5,6)
+print(a+b)
+c=a+b
+print(c)
+
+#multiply tuples:
+a=(1,2,3)
+b=a*5
+print(b)    
+    
+#Even Even More Pratice:   
+food=("cheeseburger","hotdag","fries")    
+drink=("coke","sprite","milkshake")    
+print(food+drink)    
+victuals=food+drink    
+print(victuals)    
+    
+food=("cheeseburger","hotdag","fries")   
+drink=food*3  
+print(drink)    
